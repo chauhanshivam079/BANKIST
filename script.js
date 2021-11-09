@@ -385,8 +385,8 @@ btnClose.addEventListener('click', function (e) {
 let sorted_state = false;
 btnSort.addEventListener('click', function (e) {
   e.preventDefault();
-  console.log('working');
-  displayMovements(current_account.movements, !sorted_state);
+//  console.log('working');
+  displayMovements(current_account, !sorted_state);
   sorted_state = !sorted_state;
 });
 
